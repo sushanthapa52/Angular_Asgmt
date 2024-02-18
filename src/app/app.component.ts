@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mobileappStudents';
+  message = 'this is the meessaage for mobile students';
 }

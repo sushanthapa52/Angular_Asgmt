@@ -1,0 +1,14 @@
+<header>
+
+<nav>
+    <ul>
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <!-- Add more menu items as needed -->
+    </ul>
+  </nav>
+
+  <!-- Input field with two-way binding -->
+  <input [(ngModel)]="searchQuery" placeholder="Search...">
+  <p>You entered: {{ searchQuery }}</p>
+</header>

@@ -1,0 +1,12 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%; /* Make sure the image doesn't exceed the card width */
+    border-radius: 5px; /* Optional: Add rounded corners to the image */
+  }

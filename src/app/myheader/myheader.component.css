@@ -1,0 +1,46 @@
+/* header.component.css */
+
+header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #ffd700;
+  }
+  
+  /* Style for the input field */
+  input {
+    margin-left: auto; /* Move the input to the right end */
+    padding: 5px;
+  }
+  
+  p {
+    color: white;
+    margin: 0;
+    margin-left: auto; /* Move the paragraph to the right end */
+  }
+  
